@@ -7,3 +7,19 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  padding: .45em .75em .5em;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-big {
+  font-size: 1.4rem;
+  margin: auto;
+  padding-top: .378em;
+  padding-bottom: .378em;
+}
