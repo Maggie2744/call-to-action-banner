@@ -12,13 +12,19 @@ body {
   margin: 0;
 }
 
+h2 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
 section {
   position: absolute;
   bottom: 1em;
   width: 100%;
-  max-width: 50em;
-  left: 50%;
-  transform: translateX(-50%);
+  max-width: 45em;
 }
 
 .banner {
@@ -30,6 +36,14 @@ section {
 .img-flex {
   width: 100%;
   display: block;
+}
+
+.logo {
+  display: inline-block;
+}
+
+.content {
+  display: inline-block;
 }
 
 .btn {
