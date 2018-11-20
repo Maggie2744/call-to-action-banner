@@ -78,8 +78,8 @@ section {
 .btn-big {
   font-size: 1.4rem;
   margin: auto;
-  padding-top: .378em;
-  padding-bottom: .378em;
+  padding-top: .6em;
+  padding-bottom: .6em;
 }
 
 .btn:hover {
