@@ -14,6 +14,7 @@ body {
 
 h2 {
   font-size: 3rem;
+  margin: 0;
 }
 
 p {
@@ -21,6 +22,7 @@ p {
 }
 
 section {
+  display: flex;
   position: absolute;
   bottom: 1em;
   width: 100%;
@@ -38,21 +40,27 @@ section {
   display: block;
 }
 
+.card {
+}
+
 .logo {
-  display: inline-block;
+  display: inline;
+  width: 100%;
+  max-width: 15em;
+  margin-right: 0;
 }
 
 .content {
-  display: inline-block;
+  display: inline;
 }
 
 .btn {
-  background-color: #000;
+  background-color: #333;
   color: #fff;
   padding: .45em .75em .5em;
   border-radius: 8px;
   text-decoration: none;
-  display: inline-block;
+  display: inline;
 }
 
 .btn-big {
@@ -60,4 +68,8 @@ section {
   margin: auto;
   padding-top: .378em;
   padding-bottom: .378em;
+}
+
+.btn:hover {
+  background-color: #000;
 }
