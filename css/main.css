@@ -23,10 +23,15 @@ p {
 
 section {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: top;
   position: absolute;
   bottom: 1em;
   width: 100%;
   max-width: 45em;
+  padding-left: 1em;
 }
 
 .banner {
@@ -52,7 +57,6 @@ section {
 
 .content {
   display: inline;
-  padding-left: 1em;
 }
 
 .btn {
