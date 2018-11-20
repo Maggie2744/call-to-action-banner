@@ -31,7 +31,6 @@ section {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  align-content: top;
   position: absolute;
   bottom: 1em;
   width: 100%;
@@ -39,7 +38,6 @@ section {
   padding-left: 1em;
   top: 50%;
   transform: translateY(-50%);
-  padding: auto;
 }
 
 .banner {
