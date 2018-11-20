@@ -46,12 +46,13 @@ section {
 .logo {
   display: inline;
   width: 100%;
-  max-width: 15em;
+  max-width: 20em;
   margin-right: 0;
 }
 
 .content {
   display: inline;
+  padding-left: 1em;
 }
 
 .btn {
