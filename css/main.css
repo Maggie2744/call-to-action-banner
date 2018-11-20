@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -49,9 +49,6 @@ section {
 .img-flex {
   width: 100%;
   display: block;
-}
-
-.card {
 }
 
 .logo {
