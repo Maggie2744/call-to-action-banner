@@ -12,6 +12,12 @@ body {
   margin: 0;
 }
 
+.everything {
+  max-height: 500;
+  position: relative;
+  overflow: hidden;
+}
+
 h2 {
   font-size: 3rem;
   margin: 0;
@@ -42,10 +48,11 @@ section {
   transform: translateY(-50%);
 }
 
-.banner {
+.background {
   position: relative;
   max-height: 500px;
   overflow: hidden;
+  width: 100%;
 }
 
 .img-flex {
