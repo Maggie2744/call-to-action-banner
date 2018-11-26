@@ -17,13 +17,16 @@ body {
   overflow: hidden;
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
+.background {
   position: relative;
   justify-content: center;
   align-items: row;
   align-items: stretch;
+  width: 100%;
+}
+
+.img-flex {
+  display: block;
 }
 
 .banner {
