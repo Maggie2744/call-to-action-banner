@@ -32,6 +32,9 @@ body {
   position: absolute;
   justify-content: center;
   align-items: top;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20rem;
 }
 
 .logo {
