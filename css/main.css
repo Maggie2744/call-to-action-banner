@@ -22,9 +22,17 @@ body {
   width: 100%;
 }
 
-.banner {}
+.banner {
+  display: flex;
+}
 
+.logo {
+  display: block;
+}
 
+.content {
+  display: block;
+}
 
 .btn {
   background-color: #333;
