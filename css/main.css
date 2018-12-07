@@ -17,16 +17,10 @@ body {
   overflow: hidden;
 }
 
-.background {
-  position: relative;
-  justify-content: center;
-  align-items: row;
-  align-items: stretch;
-  width: 100%;
-}
-
 .img-flex {
   display: block;
+  width: 100%;
+  position: relative;
 }
 
 .banner {
